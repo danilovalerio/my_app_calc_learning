@@ -8,6 +8,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <!-- Cores personalizadas -->
+    <color name="colorPrimary">#6200EE</color>
+    <!-- Modificada cor PrimaryDark -->
+    <color name="colorPrimaryDark">#3E6A26</color>
+    <color name="colorAccent">#03DAC5</color>
+
     <color name="gray">#4D4D53</color>
     <color name="darkgray">#302B2B</color>
     <color name="green">#3E6A26</color>

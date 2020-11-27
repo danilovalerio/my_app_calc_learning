@@ -57,7 +57,8 @@
                     android:layout_weight="1"
                     android:background="@color/darkgray"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/text_button_default" />
+                    android:textSize="@dimen/text_button_default"
+                    tools:text="1"/>
 
                 <Button
                     android:id="@+id/btnDivide"
