@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-android-extensions'
 }
 
 android {
@@ -10,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "projetos.danilo.myappcalc"
-        minSdkVersion 29
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -34,6 +33,8 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+
     // Versão do lifecycle ViewModel e activity-ktx
     def lifecycle_version = "2.2.0"
     def activity_version = "1.1.0"
